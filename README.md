@@ -4,4 +4,4 @@ I am a Master of Computer Science graduate from Lakehead University and an EDI &
 
 My experience includes customer onboarding, data mapping and validation, production support, SQL-based troubleshooting, root-cause analysis, and integrations with platforms such as Microsoft Dynamics 365, Uniconta, Rackbeat, and e-conomic.
 
-I build practical integration and AI projects using Python, FastAPI, SQL, PostgreSQL, Docker, and cloud technologies. I am currently seeking EDI, ERP Integration, Technical Solutions, Implementation, and Business Systems opportunities in Canada.
+I build practical integration and AI projects using Python, FastAPI, SQL, PostgreSQL, Docker, and cloud technologies. I am currently seeking EDI, ERP Integration, Technical Solutions Engineer, Implementation, and Business Systems opportunities in Canada.
