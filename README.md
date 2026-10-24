@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,100:0F766E&height=190&section=header&text=Grishma%20Khatra&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=EDI%20%26%20B2B%20Integration%20Specialist&descSize=18&descAlignY=60&animation=fadeIn" alt="Grishma Khatra — EDI and B2B Integration Specialist" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1D4ED8,100:0F766E&amp;height=190&amp;section=header&amp;text=Grishma%20Khatra&amp;fontSize=42&amp;fontColor=FFFFFF&amp;fontAlignY=38&amp;desc=EDI%20Integration%20Specialist&amp;descSize=18&amp;descAlignY=60" alt="Grishma Khatra — EDI Integration Specialist" />
 
   <p>
     <a href="https://www.linkedin.com/in/grishma-khatra">
