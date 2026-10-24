@@ -1,114 +1,54 @@
 # Hi, I'm Grishma Khatra 👋
 
-### EDI & Integration Specialist | ERP • API • B2B • Backend Integration
+**EDI & B2B Integration Specialist** | iPaaS • ERP • APIs • Trading Partner Onboarding
 
-Master of Computer Science graduate from **Lakehead University, Canada** with **2+ years of professional experience** working on ERP, EDI, API, e-invoicing, and B2B SaaS integrations.
+Toronto, Ontario, Canada  
+[LinkedIn](https://www.linkedin.com/in/grishma-khatra) · [GitHub](https://github.com/Grishmakhatra932)
 
-I enjoy solving integration problems — from onboarding trading partners and mapping business documents to debugging APIs, validating data, troubleshooting production issues, and connecting ERP systems.
+## About Me
 
----
+I’m an integration professional with a Master of Computer Science from Lakehead University and experience connecting customer ERP and e-commerce systems with trading partners through a B2B iPaaS platform.
 
-## 👩‍💻 What I Work With
+My work has covered the integration lifecycle: gathering requirements, onboarding customers and partners, configuring connections, mapping and validating business documents, and tracing failed or missing transactions. I’ve also used APIs and Postman to inspect customer ERP data during onboarding when direct ERP access wasn’t available.
 
-### Integration & ERP
+## Integration Experience
 
-![EDI](https://img.shields.io/badge/EDI-Integration-1f6feb?style=for-the-badge)
-![B2B](https://img.shields.io/badge/B2B-Integration-0a66c2?style=for-the-badge)
-![ERP](https://img.shields.io/badge/ERP-Integration-6f42c1?style=for-the-badge)
-![API](https://img.shields.io/badge/API-Integration-009688?style=for-the-badge)
-![PEPPOL](https://img.shields.io/badge/PEPPOL-E--Invoicing-ff9800?style=for-the-badge)
-![EDIFACT](https://img.shields.io/badge/EDIFACT-B2B-795548?style=for-the-badge)
+- Supported onboarding and integration setup for **60+ customers and trading partners combined**.
+- Connected ERP and e-commerce systems, including **Microsoft Dynamics 365, Uniconta, Rackbeat, e-conomic, and Shopify**.
+- Mapped and transformed business documents such as purchase orders, invoices, credit notes, shipping documents, and catalogues.
+- Worked with **EDIFACT, Peppol BIS 3.0, OIOUBL, UBL, XML, and CSV**.
+- Configured document exchange through **AS2, SFTP, FTP, email gateways, and Peppol**.
+- Used **Postman, REST APIs, and SQL/SSMS** to inspect data, investigate transaction issues, and support integrations.
+- Troubleshot missing, failed, or delayed documents across iPaaS workflows and partner networks.
 
-### Backend & Data
+## Featured Project
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+### [EDIFlow Canada](https://github.com/Grishmakhatra932/ediflow-canada)
 
-### Monitoring & DevOps
+A personal project demonstrating an ANSI X12 850 purchase-order processing workflow.
 
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+- Parses and validates X12 850 documents, including ISA, BEG, N1, and PO1 segments.
+- Checks required data and detects duplicate control numbers and purchase orders.
+- Simulates ERP integration with retry and failure handling.
+- Records transaction results in PostgreSQL.
+- Uses FastAPI, Docker, Prometheus, and Grafana.
 
----
+## Technical Skills
 
-## 🚀 Currently Building
+**EDI & B2B:** EDIFACT, Peppol BIS 3.0, OIOUBL, UBL, XML, CSV, AS2, SFTP, FTP  
+**ERP & E-commerce:** Microsoft Dynamics 365, Uniconta, Rackbeat, e-conomic, Shopify  
+**API & Data:** REST APIs, Postman, SQL, SSMS, PostgreSQL  
+**Development & Monitoring:** Python, FastAPI, Docker, Prometheus, Grafana, Git, GitHub
 
-### EDIFlow Canada
+## Certification
 
-A production-style EDI integration platform for processing **ANSI X12 850 Purchase Orders**.
+[**Boomi Integration Developer Certificate**](https://www.credly.com/badges/84378d17-eb06-45bb-891b-cedc24a19a01/linked_in_profile)
 
-It includes:
+## Education
 
-- X12 parsing and validation
-- Duplicate transaction detection
-- ERP integration simulation
-- Retry and failure handling
-- PostgreSQL transaction auditing
-- API key authentication
-- Docker containerization
-- Prometheus monitoring
-- Grafana dashboards
+**Master of Computer Science** — Lakehead University, Canada  
+**B.Tech in Computer Science and Engineering** — Parul Institute of Engineering and Technology, India
 
-👉 [View EDIFlow Canada](https://github.com/Grishmakhatra932/ediflow-canada)
+## Career Interests
 
----
-
-## 💼 Professional Experience
-
-My integration experience includes:
-
-- ERP and B2B customer onboarding
-- EDI document mapping and validation
-- API and SaaS integration support
-- SQL-based troubleshooting
-- Root-cause analysis
-- Production support
-- E-invoicing and PEPPOL workflows
-- Trading partner integration
-
-Worked with ERP platforms including:
-
-`Microsoft Dynamics 365` • `Uniconta` • `Rackbeat` • `e-conomic`
-
-And integration standards/formats including:
-
-`EDIFACT` • `BIS3` • `OIOUBL` • `XML` • `UBL` • `CSV`
-
----
-
-## 🎯 Career Focus
-
-Currently targeting opportunities in Canada such as:
-
-**EDI Specialist** • **Integration Engineer** • **ERP Integration Specialist** • **Technical Solutions Engineer** • **Implementation Specialist** • **Business Systems Analyst**
-
----
-
-## 📌 Featured Areas
-
-```text
-EDI / B2B Integration
-ERP Integration
-API Integration
-Backend Engineering
-Data Integration
-Production Support
-Monitoring & Observability
-```
-
----
-
-## 📫 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Grishma_Khatra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/grishma-khatra)
-[![GitHub](https://img.shields.io/badge/GitHub-Grishmakhatra932-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Grishmakhatra932)
-
----
-
-### Building reliable integrations between systems, data, and business workflows.
+EDI/B2B Integration Specialist · Integration Analyst · EDI Implementation Specialist · ERP Integration Analyst · Technical Solutions Engineer – Integrations · eProcurement Integration Analyst
