@@ -1,54 +1,41 @@
-# Hi, I'm Grishma Khatra 👋
+<h1 align="center">Grishma Khatra</h1>
 
-**EDI & B2B Integration Specialist** | iPaaS • ERP • APIs • Trading Partner Onboarding
+<p align="center">
+  <strong>EDI & B2B Integration Specialist</strong><br>
+  iPaaS · ERP · APIs · Trading Partner Onboarding
+</p>
 
-Toronto, Ontario, Canada  
-[LinkedIn](https://www.linkedin.com/in/grishma-khatra) · [GitHub](https://github.com/Grishmakhatra932)
+<p align="center">
+  <a href="https://www.linkedin.com/in/grishma-khatra">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn">
+  </a>
+  <a href="https://github.com/Grishmakhatra932">
+    <img src="https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub projects">
+  </a>
+  <a href="https://www.credly.com/badges/84378d17-eb06-45bb-891b-cedc24a19a01/linked_in_profile">
+    <img src="https://img.shields.io/badge/Boomi-Integration%20Developer%20Certificate-2F80ED?style=for-the-badge" alt="Boomi Integration Developer Certificate">
+  </a>
+</p>
 
-## About Me
+<p align="center">
+  <img src="https://img.shields.io/badge/60%2B-Customer%20%26%20Partner%20Onboardings-176B87?style=flat-square" alt="60+ combined customer and trading partner onboardings">
+  <img src="https://img.shields.io/badge/Focus-EDI%20%7C%20ERP%20%7C%20API-176B87?style=flat-square" alt="EDI ERP and API integration focus">
+  <img src="https://img.shields.io/badge/Location-Toronto%2C%20Canada-176B87?style=flat-square" alt="Toronto, Canada">
+</p>
 
-I’m an integration professional with a Master of Computer Science from Lakehead University and experience connecting customer ERP and e-commerce systems with trading partners through a B2B iPaaS platform.
+---
 
-My work has covered the integration lifecycle: gathering requirements, onboarding customers and partners, configuring connections, mapping and validating business documents, and tracing failed or missing transactions. I’ve also used APIs and Postman to inspect customer ERP data during onboarding when direct ERP access wasn’t available.
+## About
 
-## Integration Experience
+I’m an integration professional with a **Master of Computer Science from Lakehead University** and hands-on experience connecting customer ERP and e-commerce systems with trading partners through a B2B iPaaS platform.
 
-- Supported onboarding and integration setup for **60+ customers and trading partners combined**.
-- Connected ERP and e-commerce systems, including **Microsoft Dynamics 365, Uniconta, Rackbeat, e-conomic, and Shopify**.
-- Mapped and transformed business documents such as purchase orders, invoices, credit notes, shipping documents, and catalogues.
-- Worked with **EDIFACT, Peppol BIS 3.0, OIOUBL, UBL, XML, and CSV**.
-- Configured document exchange through **AS2, SFTP, FTP, email gateways, and Peppol**.
-- Used **Postman, REST APIs, and SQL/SSMS** to inspect data, investigate transaction issues, and support integrations.
-- Troubleshot missing, failed, or delayed documents across iPaaS workflows and partner networks.
+I work across the integration lifecycle: gathering requirements, configuring customer and partner connections, mapping business documents, validating transactions, and tracing failed or missing documents. I also use APIs and Postman to inspect customer ERP data during onboarding when direct ERP access isn’t available.
 
-## Featured Project
+## Integration Flow
 
-### [EDIFlow Canada](https://github.com/Grishmakhatra932/ediflow-canada)
-
-A personal project demonstrating an ANSI X12 850 purchase-order processing workflow.
-
-- Parses and validates X12 850 documents, including ISA, BEG, N1, and PO1 segments.
-- Checks required data and detects duplicate control numbers and purchase orders.
-- Simulates ERP integration with retry and failure handling.
-- Records transaction results in PostgreSQL.
-- Uses FastAPI, Docker, Prometheus, and Grafana.
-
-## Technical Skills
-
-**EDI & B2B:** EDIFACT, Peppol BIS 3.0, OIOUBL, UBL, XML, CSV, AS2, SFTP, FTP  
-**ERP & E-commerce:** Microsoft Dynamics 365, Uniconta, Rackbeat, e-conomic, Shopify  
-**API & Data:** REST APIs, Postman, SQL, SSMS, PostgreSQL  
-**Development & Monitoring:** Python, FastAPI, Docker, Prometheus, Grafana, Git, GitHub
-
-## Certification
-
-[**Boomi Integration Developer Certificate**](https://www.credly.com/badges/84378d17-eb06-45bb-891b-cedc24a19a01/linked_in_profile)
-
-## Education
-
-**Master of Computer Science** — Lakehead University, Canada  
-**B.Tech in Computer Science and Engineering** — Parul Institute of Engineering and Technology, India
-
-## Career Interests
-
-EDI/B2B Integration Specialist · Integration Analyst · EDI Implementation Specialist · ERP Integration Analyst · Technical Solutions Engineer – Integrations · eProcurement Integration Analyst
+```mermaid
+flowchart LR
+    ERP["Customer ERP / Shopify"] --> Adapter["HubBroker adapter"]
+    Adapter --> Mapping["Map, transform, validate"]
+    Mapping --> Channel["AS2 / SFTP / PEPPOL / VAN"]
+    Channel --> Partner["Trading partner"]
